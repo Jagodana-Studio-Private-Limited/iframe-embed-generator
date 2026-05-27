@@ -1,27 +1,33 @@
 export const siteConfig = {
   // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "iFrame Embed Generator",
+  title: "iFrame Embed Generator — YouTube, Google Maps, Vimeo & More",
+  description:
+    "Generate clean, customizable iframe embed codes for YouTube videos, Google Maps, Vimeo, and CodePen. Instant live preview, no login required.",
+  url: "https://iframe-embed-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
   // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Code2",
+  brandAccentColor: "#6366f1", // hex accent for OG image gradient (must match --brand-accent in globals.css)
 
   // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "iframe embed generator",
+    "youtube embed code generator",
+    "google maps embed code",
+    "vimeo embed generator",
+    "embed code generator",
+    "html iframe generator",
+    "responsive iframe embed",
+    "youtube iframe embed",
+    "embed youtube video website",
+    "free iframe tool",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
   // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
   // Branding
   creator: "Jagodana",
@@ -31,144 +37,166 @@ export const siteConfig = {
   // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
   // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github: "https://github.com/Jagodana-Studio-Private-Limited/iframe-embed-generator",
     website: "https://jagodana.com",
   },
 
   // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "iFrame Embed Generator is a free, no-login tool to instantly create customizable embed codes for YouTube, Google Maps, Vimeo, and CodePen.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "YouTube embed with options",
+      "Google Maps embed",
+      "Vimeo embed",
+      "CodePen embed",
     ],
   },
 
   // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free iFrame Embed Tool",
+    titleLine1: "Generate Embed Codes",
+    titleGradient: "Instantly",
+    subtitle:
+      "Paste a YouTube, Google Maps, Vimeo, or CodePen URL and get a perfectly crafted iframe embed code with live preview in seconds.",
   },
 
   // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🎬",
+      title: "YouTube & Vimeo",
+      description:
+        "Embed videos with autoplay, loop, privacy mode, and custom start time options.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "🗺️",
+      title: "Google Maps",
+      description:
+        "Embed any Google Maps location with adjustable zoom, satellite, or street view.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "📋",
+      title: "Copy & Use",
+      description:
+        "One-click copy of production-ready HTML. Paste directly into your website or CMS.",
     },
   ],
 
   // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Meta Tag Generator",
+      url: "https://meta-tag-generator.tools.jagodana.com",
+      icon: "🏷️",
+      description: "Generate SEO meta tags for any webpage.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
+      name: "OG Preview",
+      url: "https://og-preview.tools.jagodana.com",
       icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      description: "Preview how your page looks when shared on social media.",
     },
     {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      name: "HTML to JSX Converter",
+      url: "https://html-to-jsx-converter.tools.jagodana.com",
+      icon: "⚛️",
+      description: "Convert plain HTML to valid JSX for React components.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "Social Card Preview",
+      url: "https://social-card-preview.tools.jagodana.com",
+      icon: "📱",
+      description: "Preview social sharing cards for Twitter, Facebook, and LinkedIn.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
+      name: "UTM Builder",
+      url: "https://utm-builder.tools.jagodana.com",
+      icon: "🔗",
+      description: "Build UTM tracking links for your campaigns.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "URL Parser",
+      url: "https://url-parser.tools.jagodana.com",
+      icon: "🔎",
+      description: "Parse and inspect every component of any URL.",
     },
   ],
 
   // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Select a platform",
+      text: "Choose YouTube, Google Maps, Vimeo, or CodePen from the tabs.",
+      url: "",
+    },
+    {
+      name: "Paste your URL",
+      text: "Paste the video, map, or pen URL into the input field.",
+      url: "",
+    },
+    {
+      name: "Customize options",
+      text: "Adjust width, height, autoplay, loop, and other settings for your embed.",
+      url: "",
+    },
+    {
+      name: "Copy the code",
+      text: "Click the Copy button to copy the ready-to-use iframe HTML code.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
   // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What platforms does the iFrame Embed Generator support?",
+      answer:
+        "The tool supports YouTube videos, Google Maps locations, Vimeo videos, and CodePen pens. Simply paste the URL for any of these platforms and get the correct iframe embed code instantly.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Is the embed code responsive?",
+      answer:
+        "Yes. The generator outputs a responsive wrapper by default so the embed scales to fit any screen size. You can also set a fixed width and height if you prefer.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Do I need to create an account or log in?",
+      answer:
+        "No. The iFrame Embed Generator is completely free and requires no account or login. All processing happens in your browser.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Can I enable autoplay for YouTube embeds?",
+      answer:
+        "Yes. Toggle the Autoplay option in the YouTube settings panel. Note that most modern browsers require the video to be muted for autoplay to work — the tool handles this automatically.",
+    },
+    {
+      question: "How do I embed a YouTube video with a custom start time?",
+      answer:
+        "Enable the 'Start at' option and enter the timestamp in seconds. For example, entering 90 will start the video at the 1:30 mark.",
+    },
+    {
+      question: "What is YouTube Privacy-Enhanced Mode?",
+      answer:
+        "Privacy-enhanced mode uses youtube-nocookie.com instead of youtube.com for the embed, which means YouTube won't set cookies on your visitors until they click play. This can help with GDPR compliance.",
     },
   ],
 
   // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "iFrame Embed Generator — YouTube, Google Maps, Vimeo & More",
+      description:
+        "Generate clean, customizable iframe embed codes for YouTube videos, Google Maps, Vimeo, and CodePen. Instant live preview, no login required.",
       changeFrequency: "weekly" as const,
-      priority: 1,
+      priority: 1 as const,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
